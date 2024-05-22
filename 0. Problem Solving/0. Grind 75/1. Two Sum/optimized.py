@@ -9,3 +9,9 @@ class Solution:
             if num in pair:
                 return [pair[num], index]
             pair[target - num] = index
+
+
+"""
+TC = O(N)
+SC = O(N)
+"""
